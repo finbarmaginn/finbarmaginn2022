@@ -1,3 +1,5 @@
+import Nav from "../Nav";
+
 export function Header() {
   return (
     <div>
@@ -7,6 +9,7 @@ export function Header() {
       <p className="description">
         Refamiliarising myself with server side Javascript<br /><code>HTML5, CSS, Javascript, React, NodeJS, NextJs, Webpack</code>
       </p>
+      <Nav />
       <style jsx global>{`
         html,
         body {
