@@ -1,27 +1,32 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Finbar Maginn's NextJS App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Learn <a href="https://nextjs.org">Next.js!</a>
+          Finbar Maginn's NextJS App
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Refamiliarising myself with server side Javascript<br /><code>HTML5, CSS, Javascript, React, NodeJS, NextJs, Webpack</code>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <Link href="/posts/first-post" className='card'>
+            <a className="card">
+              <div>
+                <h3>Posts &rarr;</h3>
+                <p>View First Post</p>
+              </div>
+            </a>
+          </Link>
 
           <a href="https://nextjs.org/learn" className="card">
             <h3>Learn &rarr;</h3>
