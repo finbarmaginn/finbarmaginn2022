@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Home | Finbar Maginn's NextJS App</title>
+        <title>Home | Finbar Maginn{`'`}s NextJS App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -26,7 +26,7 @@ export default function Home() {
               </div>
             </a>
           </Link>
-            <a href="https://github.com/finbarmaginn?tab=repositories" target="_blank" className="card">
+            <a href="https://github.com/finbarmaginn?tab=repositories" target="_blank" className="card" rel="noreferrer">
               <div>
                 <h3>Github</h3>
                 <p>View First Post</p>

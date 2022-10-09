@@ -1,14 +1,12 @@
 import Head from 'next/head'
-import Link from 'next/link'
 import { Footer } from '../components/Footer'
-// import './style.css  '
 import { Header } from '../components/Header'
 
 export default function Profile() {
   return (
     <div className="container">
         <Head>
-            <title>Projects | Finbar Maginn's NextJS App</title>
+            <title>Projects | Finbar Maginn{`'`}s NextJS App</title>
             <link rel="icon" href="/favicon.ico" />
         </Head>
 
