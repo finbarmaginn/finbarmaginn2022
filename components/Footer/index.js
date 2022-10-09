@@ -5,8 +5,7 @@ export function Footer() {
   return (
     <div>
       <footer>
-        Finbar Maginn 2022
-        <Nav />
+        <p>Finbar Maginn 2022</p>
       </footer>
     </div>
   )

@@ -9,6 +9,9 @@ export default function Nav() {
             <ul>
                 <li><Link href="/projects"><a>Projects</a></Link></li>
             </ul>
+            <ul>
+                <li><Link href="/profile"><a>Profile</a></Link></li>
+            </ul>
         </div>
     )
 }
