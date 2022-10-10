@@ -1,0 +1,28 @@
+/* .nav {} */
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav ul li a {
+  padding: 10px;
+  transition: all 0.25s linear;
+
+  &:active {
+    color: white;
+    background: black;
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      color: white;
+      background: black;
+    }
+  }
+}
+
+/* .nav ul li a {} */

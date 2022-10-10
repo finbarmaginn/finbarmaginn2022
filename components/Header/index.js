@@ -1,5 +1,5 @@
 import Nav from "../Nav";
-import styles from './index.module.css'
+import styles from './index.module.scss'
 
 export function Header() {
   return (
