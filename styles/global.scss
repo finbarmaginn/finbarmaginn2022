@@ -1,4 +1,7 @@
 @import './_variables.scss';
+body {
+  overflow-y: scroll;
+}
 
 html,
 body {
@@ -26,7 +29,7 @@ a {
 
 code {
   background: $color3;
-  color: $color2;
+  color: white;
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
