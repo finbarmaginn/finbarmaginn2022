@@ -10,11 +10,20 @@ export default function Home() {
       <ul>
         <li>Custom _app.js</li>
         <li>NextJS layout</li>
-        <li>SASS / CSS3</li>
-        <li>Global SASS</li>
-        <li>Modular SASS</li>
-        <li>CSS3 flex</li>
-        <li>CSS3 animation</li>
+        <li>
+          SASS
+          <ul>
+            <li>Global</li>
+            <li>Modluar</li>
+          </ul>
+        </li>
+        <li>
+          CSS3
+          <ul>
+            <li>flex</li>
+            <li>animation</li>
+          </ul>
+        </li>
       </ul>
     </div>
   );

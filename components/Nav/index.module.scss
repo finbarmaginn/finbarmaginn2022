@@ -12,12 +12,14 @@
   padding: 3px 10px 5px 10px;
   transition: all 0.25s linear;
   border-radius: 5px;
+  color: $color1;
+  background: $color2;
 
   &:active {
     color: $color2;
     background: $color3;
   }
-  
+
   @media (hover: hover) {
     &:hover {
       color: $color2;
