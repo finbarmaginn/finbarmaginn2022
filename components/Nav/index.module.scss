@@ -1,4 +1,4 @@
-/* .nav {} */
+@import '../../styles/_variables.scss';
 
 .nav ul {
   list-style-type: none;
@@ -9,18 +9,19 @@
 }
 
 .nav ul li a {
-  padding: 10px;
+  padding: 3px 10px 5px 10px;
   transition: all 0.25s linear;
+  border-radius: 5px;
 
   &:active {
-    color: white;
-    background: black;
+    color: $color2;
+    background: $color3;
   }
-
+  
   @media (hover: hover) {
     &:hover {
-      color: white;
-      background: black;
+      color: $color2;
+      background: $color3;
     }
   }
 }

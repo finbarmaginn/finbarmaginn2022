@@ -16,7 +16,11 @@ export default function Projects() {
         >
           <div>
             <h3>Jake Sheppard - Art</h3>
-            <p>View First Post</p>
+            <ul>
+              <li>Wordpress</li>
+              <li>Woocommerce</li>
+              <li>Stripe</li>
+            </ul>
           </div>
         </a>
         <a
@@ -27,7 +31,11 @@ export default function Projects() {
         >
           <div>
             <h3>Jim Maginn - Photography</h3>
-            <p>View First Post</p>
+            <ul>
+              <li>PHP back end</li>
+              <li>React front end</li>
+              <li>Redux</li>
+            </ul>
           </div>
         </a>
       </div>

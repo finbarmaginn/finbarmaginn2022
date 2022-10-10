@@ -25,6 +25,7 @@ export default function Profile() {
         section.profile {
           display: flex;
           gap: 20px;
+          justify-content: space-between;
         }
       `}</style>
     </div>
