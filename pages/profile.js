@@ -1,8 +1,13 @@
+import Head from "next/head";
+
 export default function Profile() {
   return (
     <div>
+      <Head>
+        <title>Profile | Finbar Maginn{`'`}s NextJS App</title>
+      </Head>
       <h2>Profile</h2>
-      <section className="profile">
+      <section className='profile'>
         <article>
           <h3>Name:</h3>
           <p>Finbar Maginn</p>
@@ -13,7 +18,7 @@ export default function Profile() {
         </article>
         <article>
           <h3>Current Age:</h3>
-          <p>{getAge('1990-09-20')}</p>
+          <p>{getAge("1990-09-20")}</p>
         </article>
       </section>
       <style jsx>{`
@@ -23,7 +28,7 @@ export default function Profile() {
         }
       `}</style>
     </div>
-  )
+  );
 
   function getAge(dateString) {
     const ageInMillis = new Date() - new Date(dateString);

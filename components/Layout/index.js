@@ -1,13 +1,12 @@
-import Head from "next/head";
 import { Header } from '../Header'
 import { Footer } from "../Footer";
+import Head from 'next/head';
 
 export default function Layout({ children }) {
   return (
-    <div className="container">
+    <div className='container'>
       <Head>
-        <title>Home | Finbar Maginn{`'`}s NextJS App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel='icon' href='/favicon.ico' />
       </Head>
       <main>
         <Header />
@@ -15,5 +14,5 @@ export default function Layout({ children }) {
         <Footer />
       </main>
     </div>
-  )
+  );
 }
