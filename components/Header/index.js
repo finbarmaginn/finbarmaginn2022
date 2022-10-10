@@ -4,14 +4,14 @@ import styles from './index.module.css'
 export function Header() {
   return (
     <div>
+      <Nav />
       <h1 className={styles.title}>
-        Finbar Maginn{`'`}s NextJS App
+        NextJS App Practice<br /><small>by Finbar Maginn</small>
       </h1>
       <p className={styles.description}>Refamiliarising myself with server side Javascript</p>
       <p className={styles.description}>
-        <code>HTML5, CSS3, JSX, ES6, Javascript, ReactJS, NodeJS, NextJS, Webpack, ESLint</code>
+        <code>Javascript, ES6, NodeJS, React, NextJS, JSX, HTML5, CSS3</code>
       </p>
-      <Nav />
     </div>
   )
 }
