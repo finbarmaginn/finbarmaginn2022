@@ -16,24 +16,6 @@ main {
   width: 100%;
 }
 
-footer {
-  width: 100%;
-  border-top: 1px solid #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer img {
-  margin-left: 0.5rem;
-}
-
-footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 a {
   color: inherit;
   text-decoration: none;
@@ -65,11 +47,10 @@ code {
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 800px;
-  margin-top: 3rem;
 }
 
 .card {
-  margin: 1rem;
+  margin: 0 1rem 1rem;
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
