@@ -49,6 +49,7 @@ code {
     font-size: 1.1rem;
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
     DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    text-align: center;
 }
 .container {
     min-height: 100vh;
@@ -109,4 +110,15 @@ code {
     flex-direction: column;
     }
 }
-        
+
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+    code {
+        background-color: rgb(186, 180, 180);
+        color: rgb(50, 49, 49)
+    }
+} */

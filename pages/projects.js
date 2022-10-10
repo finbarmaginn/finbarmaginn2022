@@ -29,6 +29,7 @@ export default function Projects() {
                     </div>
                 </a>
             </div>
+            
             <Footer />
         </main>
     </div>

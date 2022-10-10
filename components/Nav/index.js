@@ -1,17 +1,14 @@
 import Link from 'next/link'
+import styles from './index.module.css'
 
 export default function Nav() {
     return (
-        <div>
+        <nav className={styles.nav}>
             <ul>
                 <li><Link href="/"><a>Home</a></Link></li>
-            </ul>
-            <ul>
                 <li><Link href="/projects"><a>Projects</a></Link></li>
-            </ul>
-            <ul>
                 <li><Link href="/profile"><a>Profile</a></Link></li>
             </ul>
-        </div>
+        </nav>
     )
 }
