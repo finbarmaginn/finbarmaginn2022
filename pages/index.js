@@ -8,8 +8,16 @@ export default function Home() {
       </Head>
       <h2>Home</h2>
       <ul>
-        <li>Custom _app.js</li>
+        <li>
+          Custom Next JS pages
+          <ul>
+            <li>_app.js</li>
+            <li>404.js</li>
+          </ul>
+        </li>
+
         <li>NextJS layout</li>
+        
         <li>
           SASS
           <ul>
@@ -17,6 +25,7 @@ export default function Home() {
             <li>Modluar</li>
           </ul>
         </li>
+        
         <li>
           CSS3
           <ul>
@@ -24,6 +33,8 @@ export default function Home() {
             <li>animation</li>
           </ul>
         </li>
+
+        <li>SVG icons</li>
       </ul>
     </div>
   );
