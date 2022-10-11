@@ -6,26 +6,35 @@
   display: flex;
   justify-content: center;
   gap: 10px;
-}
 
-.nav ul li a {
-  padding: 3px 10px 5px 10px;
-  transition: all 0.25s linear;
-  border-radius: 5px;
-  color: $color1;
-  background: $color2;
+  li a {
+    padding: 3px 10px 5px 10px;
+    transition: all 0.25s linear;
+    border-radius: 5px;
+    color: $color1;
+    background: $color2;
 
-  &:active {
-    color: $color2;
-    background: $color3;
-  }
-
-  @media (hover: hover) {
-    &:hover {
-      color: $color2;
+    &:active {
+      color: white;
       background: $color3;
+    }
+
+    @media (hover: hover) {
+      &:hover {
+        color: $color2;
+        background: $color3;
+      }
+    }
+
+    svg {
+      vertical-align: bottom;
+      height: 21px;
+      width: 21px;
+      position: relative;
+      display: inline-block;
     }
   }
 }
+
 
 /* .nav ul li a {} */
