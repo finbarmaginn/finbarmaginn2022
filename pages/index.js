@@ -35,6 +35,7 @@ export default function Home() {
         </li>
 
         <li>SVG icons</li>
+        <li>Automatic deploy from Github to Render</li>
       </ul>
     </div>
   );

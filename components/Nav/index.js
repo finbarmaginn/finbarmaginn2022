@@ -23,6 +23,11 @@ export default function Nav() {
           </Link>
         </li>
         <li>
+          <Link href='/redux-example'>
+            <a>Redux Example</a>
+          </Link>
+        </li>
+        <li>
           <a href='https://github.com/finbarmaginn/finbarmaginn2022' target="_blank" rel="noreferrer">
             View on GitHub <SVG src={githubIcon}></SVG>
           </a>

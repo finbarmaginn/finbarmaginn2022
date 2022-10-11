@@ -7,8 +7,10 @@ export default function FourOhFour() {
       <Link href='/'>
         <a>Go back home</a>
       </Link>
+      
       <style jsx>{`
-        h2, a {
+        h2,
+        a {
           text-align: center;
           display: block;
         }
