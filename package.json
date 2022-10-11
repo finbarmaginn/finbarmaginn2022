@@ -4,7 +4,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "startrender": " start -H 0.0.0.0",
+    "startrender": "next start -H 0.0.0.0",
     "lint": "next lint"
   },
   "dependencies": {
