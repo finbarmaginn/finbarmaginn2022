@@ -4,20 +4,27 @@ import { useDispatch } from "react-redux";
 // import styles from "./index.module.scss";
 import { updateTodoData, addTodo } from "./todoSlice.js";
 
-export function ToDo() {
+export const ToDo = () => {
   const dispatch = useDispatch();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+  };
 
   return (
     <>
       <h3>To Do List</h3>
-      <form>
-        <input type='text' onKeyUp={() => dispatch(updateTodoData())} />
-        <button onClick={() => dispatch(addTodo())}>
-          Add Todo
-        </button>
+      <form onSubmit={handleSubmit}>
+        <input
+          type='text'
+          onKeyUp={(e) => {
+            dispatch(updateTodoData(e.target.value));
+          }}
+        />
+        <button onClick={() => dispatch(addTodo())}>Add Todo</button>
       </form>
 
       <ul>!! Generate Todo List Here !!</ul>
     </>
   );
-}
+};

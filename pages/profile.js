@@ -33,6 +33,6 @@ export default function Profile() {
 
   function getAge(dateString) {
     const ageInMillis = new Date() - new Date(dateString);
-    return Math.floor(ageInMillis/1000/60/60/24/365)
+    return Math.floor(ageInMillis / 1000 / 60 / 60 / 24 / 365);
   }
 }

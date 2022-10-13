@@ -8,7 +8,6 @@ export default function ReduxExample() {
         <title>Redux Example | Finbar Maginn{`'`}s NextJS App</title>
       </Head>
 
-      
       <h2>Redux Example</h2>
       <ToDo />
     </>

@@ -17,7 +17,7 @@ export default function Home() {
         </li>
 
         <li>NextJS layout</li>
-        
+
         <li>
           SASS
           <ul>
@@ -25,7 +25,7 @@ export default function Home() {
             <li>Modluar</li>
           </ul>
         </li>
-        
+
         <li>
           CSS3
           <ul>
